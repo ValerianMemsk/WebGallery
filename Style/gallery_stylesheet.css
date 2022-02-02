@@ -1,0 +1,92 @@
+
+body{
+    /*background-color: #2b2b2c;
+    background-image: linear-gradient(100deg, #2b2b2c 0%, #757679 85%);*/
+    background: url(wall_background.jpg) top left;
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+    color: #d3b488;
+    /*font-family: Verdana, Geneva, Tahoma, Arial, sans-serif;*/
+}
+
+ul li{
+    list-style-type: none;    
+    display: inline;
+}
+ul{
+    margin-left: 1em;
+    padding-left: 0;
+    overflow: auto;
+}
+h1, .title{
+    @font-face {
+        font-family: Emblema One;
+        src: url("../Fonts/EmblemaOne-Regular.woff");
+    }
+    font-family: "Emblema One",  sans-serif;
+    font-weight: normal;
+    padding-bottom: 1.4em;
+    border-bottom: 1px solid black;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: 5px;
+    border: 2px solid rgb(19, 116, 145);
+    border-radius: 2mm;
+}
+img{
+    border: 5px solid rgb(19, 116, 145);
+    border-radius: 3mm;
+    border-style: inset;
+    margin-top: 1em;
+    margin-left: 5%;
+
+    height: 250px;
+    width: 400px;
+}
+textarea{
+    margin-left: 1em;
+    background: transparent;
+    color: #d3b488;
+}
+select{
+    border: 2px solid #0d5469;
+    border-radius: 1.5mm;
+    margin-left: 1.4em;
+    
+}
+a.rewind_up{
+    background-color: rgb(210, 210, 210);
+    border: 2px solid rgb(19, 116, 145);
+    border-radius: 2mm;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    float: left;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+.preview{
+        height: 150px; 
+        width: 200px;
+        border: 10px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-image: url(border.png) 30 stretch;
+}
+.LogOut{
+    float: right;
+}
+#LogedAs{
+    background-color: transparent;
+    width: 225px;
+}
+#footer {
+    font-size: 80%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+    clear: both;
+  }
